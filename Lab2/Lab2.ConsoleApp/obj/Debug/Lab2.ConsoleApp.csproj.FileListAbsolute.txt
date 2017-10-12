@@ -4,3 +4,4 @@ F:\Work\.NET Course - Beginners\Lab 2\.NET-Course-Beginners-Lab-2\Lab2\Lab2.Cons
 F:\Work\.NET Course - Beginners\Lab 2\.NET-Course-Beginners-Lab-2\Lab2\Lab2.ConsoleApp\obj\Debug\Lab2.ConsoleApp.csprojResolveAssemblyReference.cache
 F:\Work\.NET Course - Beginners\Lab 2\.NET-Course-Beginners-Lab-2\Lab2\Lab2.ConsoleApp\obj\Debug\Lab2.ConsoleApp.exe
 F:\Work\.NET Course - Beginners\Lab 2\.NET-Course-Beginners-Lab-2\Lab2\Lab2.ConsoleApp\obj\Debug\Lab2.ConsoleApp.pdb
+F:\Work\.NET Course - Beginners\Lab 2\.NET-Course-Beginners-Lab-2\Lab2\Lab2.ConsoleApp\obj\Debug\Lab2.ConsoleApp.csproj.CoreCompileInputs.cache
