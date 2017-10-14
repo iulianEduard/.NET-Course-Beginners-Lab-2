@@ -1,16 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Lab2.ConsoleApp.DataTypes;
+using System;
 
 namespace Lab2.ConsoleApp
 {
     class Program
     {
+        // Attributes
+        static int x = 0;
+        static int y;
+
+        // Method
         static void Main(string[] args)
         {
             Console.WriteLine("Hello world");
+
+            WorkingWithDataTypes workingWithDataTypes = new WorkingWithDataTypes();
+
+            workingWithDataTypes.BasicStringFunctionality();
+
             Console.ReadKey();
         }
 
@@ -30,6 +37,22 @@ namespace Lab2.ConsoleApp
             Console.WriteLine("e format: {0:e}", 99999);
             Console.WriteLine("X format: {0:X}", 99999);
             Console.WriteLine("x format: {0:x}", 99999);
+        }
+
+        public int Add(int x, int y)
+        {
+            return x + y;
+        }
+
+        public int Add2(int x)
+        {
+            int result = x + 2;
+            return result;
+        }
+
+        public void DisplayMessage(string message)
+        {
+            Console.WriteLine("This is message was sent to be displayed {0}", message);
         }
     }
 }
