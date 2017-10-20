@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataTypes\WorkingWithDataTypes.cs" />
+    <Compile Include="Eduard.cs" />
     <Compile Include="Iterations\WorkingWithIterations.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

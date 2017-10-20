@@ -1,5 +1,9 @@
 ﻿using Lab2.ConsoleApp.DataTypes;
+using Lab2.ConsoleApp.Iterations;
 using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Lab2.ConsoleApp
 {
@@ -17,14 +21,14 @@ namespace Lab2.ConsoleApp
             WorkingWithDataTypes workingWithDataTypes = new WorkingWithDataTypes();
 
             workingWithDataTypes.BasicStringFunctionality();
+            WorkingWithIterations workingWithIterations = new WorkingWithIterations();
+            //workingWithIterations.IfElseExample();
+            //workingWithIterations.SwitchOnStringExample();
+            //workingWithIterations.WhileLoopExample();
+            workingWithIterations.ForEachLoopExample();
 
             Console.ReadKey();
         }
-
-        //static int Main()
-        //{
-        //    return 0;
-        //}
 
         static void FormatNumericalData()
         {
@@ -53,6 +57,17 @@ namespace Lab2.ConsoleApp
         public void DisplayMessage(string message)
         {
             Console.WriteLine("This is message was sent to be displayed {0}", message);
+        }
+        static string StringWork(char x)
+        {
+            string y = x.ToString();
+
+            return StringWork1(y);
+        }
+
+        static string StringWork1(string s)
+        {
+            return s.ToUpper();
         }
     }
 }
