@@ -1,6 +1,7 @@
-﻿using System;
+﻿using Lab2.ConsoleApp.DataTypes;
+using Lab2.ConsoleApp.Iterations;
+using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,16 +9,19 @@ namespace Lab2.ConsoleApp
 {
     class Program
     {
+        static int x;
+        static int y = 0;
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world");
+            WorkingWithIterations workingWithIterations = new WorkingWithIterations();
+            //workingWithIterations.IfElseExample();
+            //workingWithIterations.SwitchOnStringExample();
+            //workingWithIterations.WhileLoopExample();
+            workingWithIterations.ForEachLoopExample();
+
             Console.ReadKey();
         }
-
-        //static int Main()
-        //{
-        //    return 0;
-        //}
 
         static void FormatNumericalData()
         {
@@ -31,5 +35,32 @@ namespace Lab2.ConsoleApp
             Console.WriteLine("X format: {0:X}", 99999);
             Console.WriteLine("x format: {0:x}", 99999);
         }
+
+        static string StringWork(char x)
+        {
+            string y = x.ToString();
+
+            return StringWork1(y);
+        }
+
+        static string StringWork1(string s)
+        {
+            return s.ToUpper();
+        }
+
+        static int Add(int x, int y)
+        {
+            Console.WriteLine("X = {0} {1}", x, "6 cai");
+            Console.WriteLine("Y = {0}", y);
+            return x + y;
+        }
+
+        static int Add2(int x)
+        {
+            return x + 2;
+        }
+
+
+
     }
 }
