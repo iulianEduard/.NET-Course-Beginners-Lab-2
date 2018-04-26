@@ -13,6 +13,13 @@ namespace Lab2.ConsoleApp
         static int x = 0;
         static int y;
 
+
+
+
+
+
+
+
         // Method
         static void Main(string[] args)
         {
