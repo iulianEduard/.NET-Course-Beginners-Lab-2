@@ -18,6 +18,9 @@ namespace Lab2.ConsoleApp
         {
             Console.WriteLine("Hello world");
 
+
+
+
             WorkingWithDataTypes workingWithDataTypes = new WorkingWithDataTypes();
 
             workingWithDataTypes.BasicStringFunctionality();
